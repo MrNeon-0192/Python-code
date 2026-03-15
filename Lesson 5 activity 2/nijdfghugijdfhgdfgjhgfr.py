@@ -3,8 +3,7 @@ Cost=float(input("Enter the cost price: "))
 
 if Sold>Cost:
     amount=Sold-Cost
-    print("The profit is {0}".format(amount)) 
+    print("The profit is {0}".format(amount))
+    print("The profit percentage is {0}%".format((amount/Cost)*100)) 
 else:
     print("No profit is made.")
-
-    

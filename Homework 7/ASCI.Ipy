@@ -1,0 +1,4 @@
+j=input("Enter a character: ")
+
+ascii_value=ord(j)
+print("The ASCII value of ", j, " is:", ascii_value)

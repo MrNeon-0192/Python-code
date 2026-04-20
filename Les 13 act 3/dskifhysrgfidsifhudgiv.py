@@ -16,6 +16,10 @@ if numlength>=4:
             midtwo=rem
         num=int(num/10)
         chk=chk+1
-        
+    prod=middone*midtwo
+
+    print("The product of the middle two digits is: " + str(middone) + "*" + str(midtwo) + "=" + str(prod))
+else:
+    print("The number is not a 4 or more digit number.")
     
 
